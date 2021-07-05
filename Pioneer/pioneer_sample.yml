@@ -1,0 +1,10 @@
+# lsコマンド
+conf:
+  timeout: 10
+exec_list:
+  - expect: 'password:'
+    exec: "{{ __loginpassword__ }}"
+  - expect: '$'
+    exec: "ls -l"
+  - expect: '$'
+    exec: exit
