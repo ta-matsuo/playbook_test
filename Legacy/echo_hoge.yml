@@ -1,2 +1,2 @@
 - name: echo test
-  shell: echo hoge5555555555555
+  shell: echo hoge
